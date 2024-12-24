@@ -1,6 +1,7 @@
 import chess.engine
 import csv
 
+# Source: https://stockfishchess.org/download/
 engine = chess.engine.SimpleEngine.popen_uci("stockfish-17.exe")
 limit = chess.engine.Limit(depth=60)
 
